@@ -1,0 +1,201 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618699039429100151",
+  "variant": "reflection",
+  "started_at": 1781604670.8350503,
+  "finished_at": 1781604692.4074762,
+  "total_duration_ms": 21572,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 0
+    },
+    {
+      "node": "route",
+      "duration_ms": 10807
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 3507
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1542
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1576
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 0
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 1
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 0
+    },
+    {
+      "node": "clarify",
+      "duration_ms": 4990
+    },
+    {
+      "node": "push",
+      "duration_ms": 663
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781604670.8446963,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 0,
+      "ts": 1781604670.8446963,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781604670.8512354,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 10807,
+      "ts": 1781604681.6585968,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781604681.6605976,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 3507,
+      "ts": 1781604685.1679897,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781604685.1694937,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781604685.1694937,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781604685.1725013,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781604685.179022,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1542,
+      "ts": 1781604686.7218816,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1576,
+      "ts": 1781604686.749031,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781604686.749031,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 0,
+      "ts": 1781604686.749031,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781604686.749031,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 1,
+      "ts": 1781604686.750572,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781604686.750572,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 0,
+      "ts": 1781604686.750572,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "clarify",
+      "ts": 1781604686.752608,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "clarify",
+      "duration_ms": 4990,
+      "ts": 1781604691.7426734,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781604691.743697,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 663,
+      "ts": 1781604692.4074762,
+      "retry": 0
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618762600012579055",
+  "variant": "reflection",
+  "started_at": 1781642555.03455,
+  "finished_at": 1781642580.4022765,
+  "total_duration_ms": 25367,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 2
+    },
+    {
+      "node": "route",
+      "duration_ms": 15993
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 1273
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2476
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2480
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2481
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 515
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 0
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 1
+    },
+    {
+      "node": "clarify",
+      "duration_ms": 4431
+    },
+    {
+      "node": "push",
+      "duration_ms": 645
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781642555.0395722,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 2,
+      "ts": 1781642555.0425699,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781642555.0440855,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 15993,
+      "ts": 1781642571.0374324,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781642571.03895,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 1273,
+      "ts": 1781642572.3124495,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781642572.313447,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781642572.313447,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642572.3154478,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642572.3154478,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642572.3169522,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2476,
+      "ts": 1781642574.7931077,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2480,
+      "ts": 1781642574.796114,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2481,
+      "ts": 1781642574.7971153,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781642574.798201,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 515,
+      "ts": 1781642575.3136525,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781642575.3171685,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 0,
+      "ts": 1781642575.3171685,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781642575.3197045,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 1,
+      "ts": 1781642575.3207252,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "clarify",
+      "ts": 1781642575.3237216,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "clarify",
+      "duration_ms": 4431,
+      "ts": 1781642579.7549577,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781642579.7549577,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 645,
+      "ts": 1781642580.4007716,
+      "retry": 0
+    }
+  ]
+}

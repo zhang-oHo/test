@@ -1,0 +1,201 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618625053735256201",
+  "variant": "reflection",
+  "started_at": 1781560571.1093924,
+  "finished_at": 1781560572.4687166,
+  "total_duration_ms": 1359,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 0
+    },
+    {
+      "node": "route",
+      "duration_ms": 304
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 318
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 0
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 1
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 0
+    },
+    {
+      "node": "build_answer_contract",
+      "duration_ms": 0
+    },
+    {
+      "node": "render_narrative",
+      "duration_ms": 88
+    },
+    {
+      "node": "judge",
+      "duration_ms": 0
+    },
+    {
+      "node": "push",
+      "duration_ms": 627
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781560571.1109183,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 0,
+      "ts": 1781560571.1109183,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781560571.1154542,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 304,
+      "ts": 1781560571.4202135,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781560571.422726,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 318,
+      "ts": 1781560571.7416303,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781560571.7421355,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781560571.7421355,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781560571.743642,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 0,
+      "ts": 1781560571.743642,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781560571.7446523,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 1,
+      "ts": 1781560571.7456558,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781560571.7466526,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 0,
+      "ts": 1781560571.7466526,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "build_answer_contract",
+      "ts": 1781560571.7496593,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "build_answer_contract",
+      "duration_ms": 0,
+      "ts": 1781560571.7496593,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "render_narrative",
+      "ts": 1781560571.75066,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "render_narrative",
+      "duration_ms": 88,
+      "ts": 1781560571.8394504,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "judge",
+      "ts": 1781560571.840958,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "judge",
+      "duration_ms": 0,
+      "ts": 1781560571.840958,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781560571.8414657,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 627,
+      "ts": 1781560572.4687166,
+      "retry": 0
+    }
+  ]
+}

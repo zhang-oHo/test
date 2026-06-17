@@ -1,0 +1,201 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618730346100031557",
+  "variant": "reflection",
+  "started_at": 1781623329.786708,
+  "finished_at": 1781623330.7027583,
+  "total_duration_ms": 916,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 0
+    },
+    {
+      "node": "route",
+      "duration_ms": 79
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 93
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 0
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 0
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 0
+    },
+    {
+      "node": "build_answer_contract",
+      "duration_ms": 0
+    },
+    {
+      "node": "render_narrative",
+      "duration_ms": 101
+    },
+    {
+      "node": "judge",
+      "duration_ms": 1
+    },
+    {
+      "node": "push",
+      "duration_ms": 630
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781623329.787714,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 0,
+      "ts": 1781623329.787714,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781623329.788717,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 79,
+      "ts": 1781623329.867974,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781623329.8694823,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 93,
+      "ts": 1781623329.9631486,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781623329.9641433,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781623329.9641433,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781623329.9651423,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 0,
+      "ts": 1781623329.9651423,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781623329.9651423,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 0,
+      "ts": 1781623329.9651423,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781623329.9666495,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 0,
+      "ts": 1781623329.9666495,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "build_answer_contract",
+      "ts": 1781623329.9676561,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "build_answer_contract",
+      "duration_ms": 0,
+      "ts": 1781623329.9676561,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "render_narrative",
+      "ts": 1781623329.9686596,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "render_narrative",
+      "duration_ms": 101,
+      "ts": 1781623330.0698009,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "judge",
+      "ts": 1781623330.0698009,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "judge",
+      "duration_ms": 1,
+      "ts": 1781623330.0708017,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781623330.0718012,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 630,
+      "ts": 1781623330.7027583,
+      "retry": 0
+    }
+  ]
+}

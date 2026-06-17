@@ -1,0 +1,235 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618752898839085278",
+  "variant": "reflection",
+  "started_at": 1781636772.9213002,
+  "finished_at": 1781636806.052701,
+  "total_duration_ms": 33131,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 3
+    },
+    {
+      "node": "route",
+      "duration_ms": 4008
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 287
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1830
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1860
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 522
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 0
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 0
+    },
+    {
+      "node": "build_answer_contract",
+      "duration_ms": 1
+    },
+    {
+      "node": "render_narrative",
+      "duration_ms": 22518
+    },
+    {
+      "node": "judge",
+      "duration_ms": 276
+    },
+    {
+      "node": "push",
+      "duration_ms": 3628
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781636772.9283462,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 3,
+      "ts": 1781636772.9319806,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781636772.9329805,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 4008,
+      "ts": 1781636776.9419491,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781636776.9444604,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 287,
+      "ts": 1781636777.2323742,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781636777.2338805,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781636777.2338805,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781636777.235913,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781636777.236911,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1830,
+      "ts": 1781636779.067422,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1860,
+      "ts": 1781636779.096891,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781636779.097891,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 522,
+      "ts": 1781636779.6202884,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781636779.6212888,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 0,
+      "ts": 1781636779.6212888,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781636779.6227953,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 0,
+      "ts": 1781636779.6227953,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "build_answer_contract",
+      "ts": 1781636779.6243088,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "build_answer_contract",
+      "duration_ms": 1,
+      "ts": 1781636779.6253169,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "render_narrative",
+      "ts": 1781636779.6263251,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "render_narrative",
+      "duration_ms": 22518,
+      "ts": 1781636802.1446846,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "judge",
+      "ts": 1781636802.145686,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "judge",
+      "duration_ms": 276,
+      "ts": 1781636802.421913,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781636802.4239633,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 3628,
+      "ts": 1781636806.052701,
+      "retry": 0
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618763182936948924",
+  "variant": "reflection",
+  "started_at": 1781642902.9219277,
+  "finished_at": 1781642932.4427226,
+  "total_duration_ms": 29520,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 3
+    },
+    {
+      "node": "route",
+      "duration_ms": 20100
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 1895
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2004
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2008
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 2010
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 617
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 2
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 5
+    },
+    {
+      "node": "clarify",
+      "duration_ms": 3930
+    },
+    {
+      "node": "push",
+      "duration_ms": 919
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781642902.928467,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 3,
+      "ts": 1781642902.9314754,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781642902.9334745,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 20100,
+      "ts": 1781642923.033607,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781642923.0346055,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 1895,
+      "ts": 1781642924.9304588,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781642924.9314632,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781642924.9314632,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642924.9334667,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642924.9344652,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781642924.9354656,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2004,
+      "ts": 1781642926.9403038,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2008,
+      "ts": 1781642926.9419107,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 2010,
+      "ts": 1781642926.9454446,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781642926.947453,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 617,
+      "ts": 1781642927.565421,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781642927.5700004,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 2,
+      "ts": 1781642927.5729997,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781642927.5776415,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 5,
+      "ts": 1781642927.5832658,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "clarify",
+      "ts": 1781642927.5899322,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "clarify",
+      "duration_ms": 3930,
+      "ts": 1781642931.5208364,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781642931.5213451,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 919,
+      "ts": 1781642932.4412053,
+      "retry": 0
+    }
+  ]
+}

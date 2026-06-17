@@ -1,0 +1,303 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618719577677496423",
+  "variant": "reflection",
+  "started_at": 1781616911.971456,
+  "finished_at": 1781616994.5452878,
+  "total_duration_ms": 82573,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 5
+    },
+    {
+      "node": "route",
+      "duration_ms": 11890
+    },
+    {
+      "node": "extract_features",
+      "duration_ms": 4161
+    },
+    {
+      "node": "expand_seeds",
+      "duration_ms": 0
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1558
+    },
+    {
+      "node": "retrieve_one",
+      "duration_ms": 1556
+    },
+    {
+      "node": "fuse_scores",
+      "duration_ms": 616
+    },
+    {
+      "node": "rerank",
+      "duration_ms": 0
+    },
+    {
+      "node": "check_sufficiency",
+      "duration_ms": 0
+    },
+    {
+      "node": "build_answer_contract",
+      "duration_ms": 0
+    },
+    {
+      "node": "render_narrative",
+      "duration_ms": 15205
+    },
+    {
+      "node": "judge",
+      "duration_ms": 20298
+    },
+    {
+      "node": "increment_retry",
+      "duration_ms": 0
+    },
+    {
+      "node": "render_narrative",
+      "duration_ms": 13588
+    },
+    {
+      "node": "judge",
+      "duration_ms": 14629
+    },
+    {
+      "node": "mark_warning",
+      "duration_ms": 0
+    },
+    {
+      "node": "push",
+      "duration_ms": 592
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781616911.9774947,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 5,
+      "ts": 1781616911.9830234,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781616911.985543,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 11890,
+      "ts": 1781616923.8758438,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "extract_features",
+      "ts": 1781616923.876846,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "extract_features",
+      "duration_ms": 4161,
+      "ts": 1781616928.0386553,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "expand_seeds",
+      "ts": 1781616928.0406559,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "expand_seeds",
+      "duration_ms": 0,
+      "ts": 1781616928.0406559,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781616928.0431626,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "retrieve_one",
+      "ts": 1781616928.0451758,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1558,
+      "ts": 1781616929.601919,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "retrieve_one",
+      "duration_ms": 1556,
+      "ts": 1781616929.601919,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "fuse_scores",
+      "ts": 1781616929.6034257,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "fuse_scores",
+      "duration_ms": 616,
+      "ts": 1781616930.219849,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "rerank",
+      "ts": 1781616930.2208474,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "rerank",
+      "duration_ms": 0,
+      "ts": 1781616930.221846,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "check_sufficiency",
+      "ts": 1781616930.221846,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "check_sufficiency",
+      "duration_ms": 0,
+      "ts": 1781616930.221846,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "build_answer_contract",
+      "ts": 1781616930.2238812,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "build_answer_contract",
+      "duration_ms": 0,
+      "ts": 1781616930.2238812,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "render_narrative",
+      "ts": 1781616930.22489,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "render_narrative",
+      "duration_ms": 15205,
+      "ts": 1781616945.430559,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "judge",
+      "ts": 1781616945.4315586,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "judge",
+      "duration_ms": 20298,
+      "ts": 1781616965.7305317,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "increment_retry",
+      "ts": 1781616965.7315302,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "increment_retry",
+      "duration_ms": 0,
+      "ts": 1781616965.7315302,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "render_narrative",
+      "ts": 1781616965.7315302,
+      "retry": 1
+    },
+    {
+      "phase": "node_exit",
+      "node": "render_narrative",
+      "duration_ms": 13588,
+      "ts": 1781616979.3200157,
+      "retry": 1
+    },
+    {
+      "phase": "node_enter",
+      "node": "judge",
+      "ts": 1781616979.3210151,
+      "retry": 1
+    },
+    {
+      "phase": "node_exit",
+      "node": "judge",
+      "duration_ms": 14629,
+      "ts": 1781616993.9504957,
+      "retry": 1
+    },
+    {
+      "phase": "node_enter",
+      "node": "mark_warning",
+      "ts": 1781616993.951493,
+      "retry": 1
+    },
+    {
+      "phase": "node_exit",
+      "node": "mark_warning",
+      "duration_ms": 0,
+      "ts": 1781616993.951493,
+      "retry": 1
+    },
+    {
+      "phase": "node_enter",
+      "node": "push",
+      "ts": 1781616993.9530308,
+      "retry": 1
+    },
+    {
+      "phase": "node_exit",
+      "node": "push",
+      "duration_ms": 592,
+      "ts": 1781616994.5452878,
+      "retry": 1
+    }
+  ]
+}

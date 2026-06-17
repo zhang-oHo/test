@@ -1,0 +1,48 @@
+{
+  "thread_id": "line-U08af89480383106468b01cdbeaf9a61d-618606670184710264",
+  "variant": "reflection",
+  "started_at": 1781549614.6840134,
+  "finished_at": 1781549621.3344524,
+  "total_duration_ms": 6650,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_cost_usd": 0.0,
+  "node_timings": [
+    {
+      "node": "input_guard",
+      "duration_ms": 4
+    },
+    {
+      "node": "route",
+      "duration_ms": 6585
+    }
+  ],
+  "events": [
+    {
+      "phase": "node_enter",
+      "node": "input_guard",
+      "ts": 1781549614.691614,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "input_guard",
+      "duration_ms": 4,
+      "ts": 1781549614.6956542,
+      "retry": 0
+    },
+    {
+      "phase": "node_enter",
+      "node": "route",
+      "ts": 1781549614.6986632,
+      "retry": 0
+    },
+    {
+      "phase": "node_exit",
+      "node": "route",
+      "duration_ms": 6585,
+      "ts": 1781549621.2846005,
+      "retry": 0
+    }
+  ]
+}
